@@ -100,7 +100,7 @@ def get_user_games(user_id: int, sort_by: str = None, db: sqlite3.Connection = D
     return [{"id": game[0], "title": game[1], "playtime": game[2]} for game in games]
 
 # Find common games between two users, and compare their playtimes
-@app.get("/common-games/{user_id1}/{user_id2}")
+@app.get("/common_games/{user_id1}/{user_id2}")
 def get_common_games(user_id1: int, user_id2: int, db: sqlite3.Connection = Depends(get_db)):
     # Check if both users exist
     user1 = db.execute("SELECT id FROM users WHERE id = ?", (user_id1,))
