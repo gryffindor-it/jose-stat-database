@@ -1,5 +1,8 @@
 ### This is my first time making an actual readme so bear with me
 
+# For full documentation go to:
+[https://gryffindor-it.github.io/jose-stat-database/](https://gryffindor-it.github.io/jose-stat-database/)
+
 everything to need to run this is in requirements.txt
 
 ```python pip install-r requirements.txt```
