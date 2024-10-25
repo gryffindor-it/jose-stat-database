@@ -25,7 +25,10 @@ server is by default at http://127.0.0.1:8000
 creating and deleting users and games
 
 **add_user.py**: simply pick a username and run, you should get a response: "User created successfully:" or an error code
+
 **add_game.py**: specify by ID what user the game will be added to, specify title and playtime, you should get a response: "Game added successfully:" or an error code
+
 **remove_user.py**: specify user ID and run, you should get a response: "User deleted successfully:" or "Failed to delete user:" (usually fails if user does not exist)
+
 **remove_game.py**: specify user ID and game ID and run, you should get a response: "Game deleted successfully:" or "Failed to delete game:" (usually fails is user/game does not exist)
 
