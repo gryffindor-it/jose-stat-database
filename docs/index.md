@@ -26,7 +26,7 @@ My api lets you:
     - Sort alphabetically by title
 - Add new users
 - Add new games to specific users
-- Delete users
+- Delete specific users
 - Delete specific games from specific users
 - Delete all games from a specific user
 

@@ -1,3 +1,5 @@
+
+
 **[/users/](http://localhost:8000/users/)**: shows all users (user IDs, usernames)
 ``` json
 [
@@ -11,7 +13,8 @@
   }
 ]
 ```
-**[/users/{user_id}/](http://localhost:8000/users/1)**: one specific user by ID (user ID, username)
+**[/users/{user_id}/](http://localhost:8000/users/1)**: one specific user by ID (user ID, username)<br>
+The link would look something like this: **http://localhost:8000/users/1**
 ``` json
 [
   {
@@ -51,9 +54,9 @@
 
 ## creating and deleting users and games
 
-**add_user.py**: put in a username in the double quotes, you should get a response: <br>`"User created successfully:" or an error code`
+**add_user.py**: put in a username in the double quotes, you should get a response: <br>`"User created successfully:"` or an error code
 
-**add_game.py**: specify by ID what user the game will be added to, specify title and playtime, you should get a response:<br> `"Game added successfully:" or an error code`
+**add_game.py**: specify by ID what user the game will be added to, specify title and playtime, you should get a response:<br> `"Game added successfully:"` or an error code
 
 **remove_user.py**: specify user ID and run, you should get a response:<br> `"User deleted successfully:"` or `"Failed to delete user:"` (usually fails if user does not exist)
 
