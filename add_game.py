@@ -1,11 +1,11 @@
 import requests
 
-user_id = 1 # Replace with desired user ID
+user_id = 6 # Replace with desired user ID
 
 url = f"http://127.0.0.1:8000/users/{user_id}/games/"
 data = {
-    "title": "",  # Replace with desired game title
-    "playtime": 0,  # Replace with desired playtime
+    "title": "Outer wilds",  # Replace with desired game title
+    "playtime": 39,  # Replace with desired playtime
     "user_id": user_id  # Use the user ID returned from creating the user
 }
 
