@@ -1,7 +1,5 @@
 # What's this?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
 ## SQLite database with FastAPI
 
 This is a database i created to store game stats, to be used with the friend finder chat app.
